@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beach Paradise</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div id="logo">
+            <img src="images/logo.jpg" alt="logo">
+        </div>
+        <div class="navLinks">
+
+            <a href="#introduction">Introduction</a>
+
+            <a href="#beaches">Beaches</a>
+
+            <a href="#form">Form</a>
+
+            <a href="#footer">Footer</a>
+
+        </div>
+
+    </nav>
+
+    <header>
+
+        <h1 id="introduction">Welcome to Beach Paradise!</h1>
+        <p>Dive into a world of sun, sand, and waves as we bring you expert recommendations and detailed ratings of
+            the
+            most
+            breathtaking beaches across the planet. Whether you're seeking serene shores for a relaxing getaway,
+            thrilling
+            watersports adventures, or picturesque landscapes for your next Instagram-worthy vacation, our curated
+            selection
+            guarantees an unforgettable beach experience. Explore our top picks, each meticulously evaluated for
+            their
+            beauty,
+            amenities, and overall ambiance, and embark on a journey to find your perfect beach paradise. Let the
+            waves
+            of discovery
+            begin!"</p>
+        <div class="headerlinks">
+            <a href="#">Book now</a>
+            <a href="#">Contact us</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2 id="beaches">Beaches</h2>
+            <div class="article-container">
+                <article>
+                    <img src="images/tahiti.jpg" alt="tahiti">
+                    <div class="content">
+                        <h3>Tahiti</h3>
+                        <p span class="star"></span>&starf; &starf; &starf; &starf; &star;</span></p>
+                        <p>Discover Tahiti's paradise beaches: soft sands, clear waters, and a tranquil atmosphere.
+                            Great
+                            whether
+                            you crave solitude or
+                            water sports excitement.</p>
+                        <a href="#">Explore now!</a>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/maldives.jpg" alt="maldives">
+                    <div class="content">
+                        <h3>Maldives</h3>
+                        <p span class="star">&starf; &starf; &starf; &starf; &starf;</span></p>
+                        <p>Maldives: hite sands, turquoise waters, and endless
+                            tranquility. Dive into
+                            paradise, where luxury meets nature's purest form.</p>
+                        <a href="#">Explore now!</a>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/maui.jpg" alt="maui">
+                    <div class="content">
+                        <h3>Maui</h3>
+                        <p span class="star">&starf; &starf; &starf; &star; &star;</span></p>
+                        <p>Maui: Golden sands, endless waves, pure serenity. Dive into paradise, where every moment is
+                            magic. Maui's beaches await
+                            your blissful escape.</p>
+                        <a href="#">Explore now!</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="formsection">
+            <div class="center-container">
+                <h4 id="form">Form</h4>
+
+                <div class="form-container">
+                    <form>
+                        <div class="same-row-container">
+                            <div class="formfield">
+                                <label for="firstname">First name</label>
+                                <input type="text" name="firstname" id="firstname" required placeholder="First name">
+                            </div>
+
+                            <div class="formfield">
+                                <label for="lastname">Last name</label>
+                                <input type="text" name="lastname" id="lastname" required placeholder="Last name">
+                            </div>
+                        </div>
+
+                        <div class="formfield">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Email">
+                        </div>
+
+                        <div class="same-row-container">
+                            <div class="formfield">
+                                <label for="place">City</label>
+                                <input type="text" name="place" id="place" required placeholder="City">
+                            </div>
+
+                            <div class="formfield">
+                                <label for="birthdate">Birthdate</label>
+                                <input type="date" id="birthdate" name="birthdate" required>
+                            </div>
+                        </div>
+
+                        <div class="formfield">
+                            <label for="subjects">Subject</label>
+                            <select id="subjects" name="subjects" required>
+                                <option value="">Choose the subject of your message...</option>
+                                <option value="Booking">Booking</option>
+                                <option value="Cancellation">Cancellation</option>
+                                <option value="Business">Business</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+
+                        <div class="formfield">
+                            <label for="message">Message</label>
+
+                            <textarea id="message" name="message" required placeholder="Your message..."></textarea>
+                        </div>
+
+                        <div class="formfield">
+                            <label for="news">Subscribe to the newsletter?</label>
+
+                            <div class="radiobutton">
+                                <div>
+                                    <input type="radio" id="Yes" name="news" value="Yes" required>
+                                    <label for="Yes">Yes</label>
+                                </div>
+                                <div>
+                                    <input type="radio" id="No" name="news" value="No" required>
+                                    <label for="No">No</label>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="check">
+                            <input type="checkbox" id="condition" name="condition" value="condition" required>
+                            <label for="condition">I agree with the terms and conditions</label>
+                        </div>
+
+                        <div class="formfield">
+                            <button type="submit" id="submit-button">Submit</button>
+                        </div>
+                    </form>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="left-footer">
+                <img src="images/logo.jpg" alt="logo">
+                <div class="copyright">
+                    <p>Copyright 2023 - Travel Paradise</p>
+                </div>
+                <div class="icons">
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-facebook-square"></i>
+                    <i class="fa fa-snapchat-square"></i>
+                </div>
+            </div>
+            <div class="right-footer">
+                <div>
+                    <a href="#">Privacy</a>
+                </div>
+                <div>
+                    <a href="#">Terms and Conditions</a>
+                </div>
+                <div>
+                    <a href="#">Cookies</a>
+                </div>
+                <div>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
