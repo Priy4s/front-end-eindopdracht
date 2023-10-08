@@ -300,10 +300,6 @@ footer a:hover {
         text-align: center;
     }
 
-    nav a:hover {
-        display: none;
-    }
-
     nav a:active {
         background-color: white;
         color: black;
